@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Slab';
+    box-sizing:border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+.html
+{
+font-size: 62.5%;
+}
+.header
+{
+ height: 4rem;
+ display: flex;
+ justify-content:space-around;
+ align-items: center;
+ padding: 1px;
+ background-color: aliceblue;
+}
+.logo
+{
+    font-size: 1.5rem;
+    font-weight:bold ;
+    color: rgba(238, 95, 15, 0.88);
+    padding: 1rem;
+    }
+.navbar-list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:4.199999999999999rem;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+
+}
+.navbarlink:hover{
+   text-decoration: underline;
+}
+    
+.button{
+height: 30px;
+width: 130px;
+padding: 0px, 20px, 0px, 20px;
+background-color: black;
+color: aliceblue;
+border: none;
+border-radius: 10rem;
+transition: all 0.3s ease-in;
+}
+.button:hover{
+    background-color:hsla(22, 100%, 46%, 0.88);
+}
+#Home{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9rem;
+    padding-left: 10rem;
+    background-color: rgb(233, 233, 242);
+
+}
+#Home.data{
+    width: 45%;
+    background-color: rgba(218, 200, 200, 0.14); ;
+}
+#Home .data h1{
+width: 528px;
+height: 421px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+top: -9px;
+left: 2px;
+color: #000000;
+
+}
+span{
+    color:  rgba(238, 95, 15, 0.88);
+    ;
+}
+.para{
+    position: absolute;
+    width: 503px;
+    height: 89px;
+    left: 161px;
+    top: 373px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 131.8%;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.58);
+}
+.button2{
+    
+    position: relative;
+    width: 171px;
+    height: 35px;
+    left: -311px;
+    border: none;
+    top: 68px;
+    background: #050505;
+    color: #eee;
+    border-radius: 38px;
+    transition: all .3s ease-in;
+}
+
+    .button2:hover{
+        background-color:hsla(22, 100%, 46%, 0.88);
+}
+
+.hero-image{
+    width: 50%;
+}
+.hero-image img{
+    position: absolute;
+    width: 469px;
+    height: 486px;
+    left: 900px;
+    top: 120px;
+    border-radius: 25px;
+
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 2rem;
+    padding-top:3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+#section .prooduct-container
+{
+display: flex;
+justify-content: space-around;
+align-items: center ;
+padding: 3rem;
+margin: 1rem;
+
+}
+.box
+{
+  padding-left: 3.5rem;
+
+}
+.img{
+    
+    width: 318px;
+    height: 318px;
+    left: 90px;
+    top: 170px;
+    filter: drop-shadow(14px 6px 6px rgba(0, 0, 0, 0.32));
+    } 
+.EXPLORE
+{
+padding-top:1.5rem ;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 165.8%;
+color: #EE5F0F;
+}
+
+.hr
+{
+    border-top: 1px solid red;
+
+}
+#hero-data2
+{
+  padding: 2rem;
+  height: 50vh;
+  weidth:100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.imge{
+    width: 318px;
+    height: 318px;
+    left: 90px;
+    top: 170px;
+    filter: drop-shadow(14px 6px 6px rgba(0, 0, 0, 0.32));
+} 
+.h1
+{
+    height: 99px;
+    width: 446px;
+    font-size: 38px;
+    position: relative;
+    top: 25px;
+    left: 29px;
+}
+.h5
+{
+    width: 434px;
+    height: 60px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145.%;
+    color: rgba(0, 0, 0, 0.60);
+    position: relative;
+    top: 30px;
+    left: 29px;
+}
+.button-3
+{
+    position: relative;
+    width: 154px;
+    height: 32px;
+    left: 29px;
+    top: 5rem;
+    color: aliceblue;
+    background: #050505;
+    box-shadow: 10px 4px 4px rgb(0 0 0 / 66%);
+    border-radius: 25px;
+    border:none;
+
+    transition: all .3s ease-in;
+}
+
+    .button-3:hover{
+        background-color:hsla(22, 100%, 46%, 0.88);
+}
+
+
+.imgesart-1
+{
+    height: 381px;
+    width: 397px;
+    position: relative;
+    left: 4px;
+    top: 28px;
+    border-radius: 30px;
+    
+}
+
+.imges1
+{
+     height: 401px;
+     width: 408px;
+     position: relative;
+     top: 70px;
+     left: 120px;
+    border-radius: 30px;
+    
+}
+.h3
+{
+    height: 99px;
+    width: 447px;
+    font-size: 38px;
+    position: relative;
+    top: -245px;
+    left: 850px;
+}
+.when
+{
+    width: 434px;
+    height: 60px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145.%;
+    color: rgba(0, 0, 0, 0.60);
+    position: relative;
+    top: -233px;
+    left: 852px;
+}
+.button-4
+{
+    position: relative;
+    width: 154px;
+    height: 32px;
+    left: 848px;
+    top: -11rem;
+    color: aliceblue;
+    background: #050505;
+    box-shadow: 10px 4px 4px rgb(0 0 0 / 66%);
+    border-radius: 30px;
+    transition: all .3s ease-in;
+    border: none;
+
+}
+
+    .button-4:hover{
+        background-color:hsla(22, 100%, 46%, 0.88);
+}
+
+.card
+{
+    background-color: rgba(0, 0, 0, 0.25);
+    max-height:100%;
+    width: 100%;
+}
+
+.ul
+{
+ display: flex;
+ height: 2rem;
+ align-items: center;
+ justify-content: space-around;
+}
+.li
+{
+    
+    font-size: 1rem;
+    color:rgba(5, 5, 5, 0.4);
+    
+}
+.card-heading
+{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 16px 2px 9px; 
+}
+.card-heading2
+{
+    font-size: .8rem;
+    text-align: center;
+    height: 51px;
+    width: 40%;
+    padding: -7rem;
+    margin: 0 27rem;
+    font-weight: 400;
+}
+.cardbox-1
+{
+    height: 50px;
+    width: 50%;
+
+}
+#box-conntainer
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.cardbox
+{
+    flex: 319px;
+    max-width: 350px;
+    height: 255px;
+    box-sizing: border-box;
+    padding: 2px;
+    background: #FFFFFF;
+
+    
+}
+.profile
+{
+
+    padding: 7px;
+}
+.profile img
+{
+    width: 66px;
+    height: 59px;
+    border-radius: 50px;
+    position: relative;
+    left: 7rem;
+    top: 0rem;
+
+}
+.name
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 2px;
+    position: relative;
+    top: 0rem;
+    left: 4rem;
+}
+.p1
+{
+    color: rgba(0, 0, 0, 0.89);
+    position: relative;
+    left: 6.329999999999998px;
+    top: 16.560000000000002px;
+    font-family: 'Roboto Slab';
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 26px;;
+}
+.box2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cardbox2
+{
+    flex: 319px;
+    max-width: 320px;
+    height: 255px;
+    box-sizing: border-box;
+    padding: 20px;
+    background:#FFFFFF;
+}
+.profile2
+{
+    
+    padding: 7px;
+}
+.profile2 img
+{
+    width: 66px;
+    height: 59px;
+    border-radius: 50px;
+    position: relative;
+    left: 7rem;
+    top: -1rem;
+
+}
+.name2
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 2px;
+    position: relative;
+    top: -1rem;
+    left: 4rem;
+}
+.p11
+{
+color: rgba(0, 0, 0, 0.89);
+position: relative;
+left: 10.329999999999998px;
+top: -5.439999999999998px;
+font-family: 'Roboto Slab';
+font-weight: 200;
+font-size: 18px;
+line-height: 25px;
+}
+
+.footer
+{
+    background-color: #090909;
+    padding: 70px 0;
+}
+.container
+{
+    max-width: 1170px;
+    margin:auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-col
+{
+    width:25%;
+    padding: 0 33px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:#FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    positon:relative;
+}
+.footer-col h4::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #EE5F0F;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
